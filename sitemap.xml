@@ -2,218 +2,218 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/R-Packages--2e-.adoc</loc>
-    <lastmod>2023-10-11T07:18:33.005Z</lastmod>
+    <lastmod>2023-10-12T07:19:21.881Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/index.html</loc>
-    <lastmod>2023-10-11T07:24:24.723Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.202Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/preface.adoc</loc>
-    <lastmod>2023-10-11T07:18:41.049Z</lastmod>
+    <lastmod>2023-10-12T07:19:32.434Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/preface.html</loc>
-    <lastmod>2023-10-11T07:24:24.751Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.242Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/introduction.adoc</loc>
-    <lastmod>2023-10-11T07:18:48.509Z</lastmod>
+    <lastmod>2023-10-12T07:19:41.083Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/introduction.html</loc>
-    <lastmod>2023-10-11T07:24:24.767Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.254Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/whole-game.adoc</loc>
-    <lastmod>2023-10-11T07:20:18.566Z</lastmod>
+    <lastmod>2023-10-12T07:21:33.852Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/whole-game.html</loc>
-    <lastmod>2023-10-11T07:24:24.811Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.318Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/setup.adoc</loc>
-    <lastmod>2023-10-11T07:20:28.178Z</lastmod>
+    <lastmod>2023-10-12T07:21:46.041Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/setup.html</loc>
-    <lastmod>2023-10-11T07:24:24.835Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.334Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/structure.adoc</loc>
-    <lastmod>2023-10-11T07:20:40.334Z</lastmod>
+    <lastmod>2023-10-12T07:21:59.166Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/structure.html</loc>
-    <lastmod>2023-10-11T07:24:24.855Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.366Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/workflow101.adoc</loc>
-    <lastmod>2023-10-11T07:20:51.634Z</lastmod>
+    <lastmod>2023-10-12T07:22:12.450Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/workflow101.html</loc>
-    <lastmod>2023-10-11T07:24:24.887Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.394Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/package-within.adoc</loc>
-    <lastmod>2023-10-11T07:21:04.894Z</lastmod>
+    <lastmod>2023-10-12T07:22:28.403Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/package-within.html</loc>
-    <lastmod>2023-10-11T07:24:24.943Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.474Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/code.adoc</loc>
-    <lastmod>2023-10-11T07:21:19.038Z</lastmod>
+    <lastmod>2023-10-12T07:22:45.996Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/code.html</loc>
-    <lastmod>2023-10-11T07:24:24.987Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.514Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/data.adoc</loc>
-    <lastmod>2023-10-11T07:21:33.706Z</lastmod>
+    <lastmod>2023-10-12T07:23:03.076Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/data.html</loc>
-    <lastmod>2023-10-11T07:24:25.027Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.558Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/misc.adoc</loc>
-    <lastmod>2023-10-11T07:21:44.330Z</lastmod>
+    <lastmod>2023-10-12T07:23:14.649Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/misc.html</loc>
-    <lastmod>2023-10-11T07:24:25.055Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.574Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/description.adoc</loc>
-    <lastmod>2023-10-11T07:21:51.838Z</lastmod>
+    <lastmod>2023-10-12T07:23:24.413Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/description.html</loc>
-    <lastmod>2023-10-11T07:24:25.099Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.610Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/dependencies-mindset-background.adoc</loc>
-    <lastmod>2023-10-11T07:22:05.550Z</lastmod>
+    <lastmod>2023-10-12T07:23:41.998Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/dependencies-mindset-background.html</loc>
-    <lastmod>2023-10-11T07:24:25.127Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.654Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/dependencies-in-practice.adoc</loc>
-    <lastmod>2023-10-11T07:22:15.942Z</lastmod>
+    <lastmod>2023-10-12T07:23:55.411Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/dependencies-in-practice.html</loc>
-    <lastmod>2023-10-11T07:24:25.171Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.698Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/license.adoc</loc>
-    <lastmod>2023-10-11T07:22:28.854Z</lastmod>
+    <lastmod>2023-10-12T07:24:09.598Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/license.html</loc>
-    <lastmod>2023-10-11T07:24:25.195Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.742Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/testing-basics.adoc</loc>
-    <lastmod>2023-10-11T07:22:36.562Z</lastmod>
+    <lastmod>2023-10-12T07:24:19.568Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/testing-basics.html</loc>
-    <lastmod>2023-10-11T07:24:25.227Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.842Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/testing-design.adoc</loc>
-    <lastmod>2023-10-11T07:22:47.518Z</lastmod>
+    <lastmod>2023-10-12T07:24:33.885Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/testing-design.html</loc>
-    <lastmod>2023-10-11T07:24:25.275Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.902Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/testing-advanced.adoc</loc>
-    <lastmod>2023-10-11T07:22:57.402Z</lastmod>
+    <lastmod>2023-10-12T07:24:46.667Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/testing-advanced.html</loc>
-    <lastmod>2023-10-11T07:24:25.311Z</lastmod>
+    <lastmod>2023-10-12T07:26:35.942Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/man.adoc</loc>
-    <lastmod>2023-10-11T07:23:06.714Z</lastmod>
+    <lastmod>2023-10-12T07:24:58.601Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/man.html</loc>
-    <lastmod>2023-10-11T07:24:25.355Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.002Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/vignettes.adoc</loc>
-    <lastmod>2023-10-11T07:23:18.142Z</lastmod>
+    <lastmod>2023-10-12T07:25:12.267Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/vignettes.html</loc>
-    <lastmod>2023-10-11T07:24:25.379Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.030Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/other-markdown.adoc</loc>
-    <lastmod>2023-10-11T07:23:28.023Z</lastmod>
+    <lastmod>2023-10-12T07:25:24.137Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/other-markdown.html</loc>
-    <lastmod>2023-10-11T07:24:25.403Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.062Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/website.adoc</loc>
-    <lastmod>2023-10-11T07:23:42.359Z</lastmod>
+    <lastmod>2023-10-12T07:25:41.868Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/website.html</loc>
-    <lastmod>2023-10-11T07:24:25.423Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.090Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/software-development-practices.adoc</loc>
-    <lastmod>2023-10-11T07:23:50.543Z</lastmod>
+    <lastmod>2023-10-12T07:25:51.757Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/software-development-practices.html</loc>
-    <lastmod>2023-10-11T07:24:25.443Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.102Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/lifecycle.adoc</loc>
-    <lastmod>2023-10-11T07:24:01.275Z</lastmod>
+    <lastmod>2023-10-12T07:26:05.306Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/lifecycle.html</loc>
-    <lastmod>2023-10-11T07:24:25.479Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.154Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/release.adoc</loc>
-    <lastmod>2023-10-11T07:24:10.975Z</lastmod>
+    <lastmod>2023-10-12T07:26:17.580Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/release.html</loc>
-    <lastmod>2023-10-11T07:24:25.511Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.198Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/references.adoc</loc>
-    <lastmod>2023-10-11T07:24:13.847Z</lastmod>
+    <lastmod>2023-10-12T07:26:21.044Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/references.html</loc>
-    <lastmod>2023-10-11T07:24:25.519Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.206Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/book-asciidoc/R-CMD-check.adoc</loc>
-    <lastmod>2023-10-11T07:24:19.291Z</lastmod>
+    <lastmod>2023-10-12T07:26:28.413Z</lastmod>
   </url>
   <url>
     <loc>https://r-pkgs.org/R-CMD-check.html</loc>
-    <lastmod>2023-10-11T07:24:25.551Z</lastmod>
+    <lastmod>2023-10-12T07:26:36.246Z</lastmod>
   </url>
 </urlset>
