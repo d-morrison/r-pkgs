@@ -31,7 +31,7 @@ usethis::use_pkgdown()
 ----
 
 ....
-#> ✔ Setting active project to '/tmp/Rtmp7TYiHW/mypackage'
+#> ✔ Setting active project to '/tmp/RtmpXSzuWf/mypackage'
 #> ✔ Adding '^_pkgdown\\.yml$', '^docs$', '^pkgdown$' to '.Rbuildignore'
 #> ✔ Adding 'docs' to '.gitignore'
 #> ✔ Writing '_pkgdown.yml'
@@ -53,11 +53,11 @@ pkgdown::build_site()
 ----
 
 ....
-#> ✔ Setting active project to '/tmp/Rtmp7TYiHW/mypackage'
+#> ✔ Setting active project to '/tmp/RtmpXSzuWf/mypackage'
 #> -- Installing package into temporary library -----------------------
 #> == Building pkgdown site =======================================================
-#> Reading from: '/tmp/Rtmp7TYiHW/mypackage'
-#> Writing to:   '/tmp/Rtmp7TYiHW/mypackage/docs'
+#> Reading from: '/tmp/RtmpXSzuWf/mypackage'
+#> Writing to:   '/tmp/RtmpXSzuWf/mypackage/docs'
 #> -- Initialising site -----------------------------------------------------------
 #> Copying '../../../home/runner/work/_temp/Library/pkgdown/BS5/assets/link.svg' to 'link.svg'
 #> Copying '../../../home/runner/work/_temp/Library/pkgdown/BS5/assets/pkgdown.js' to 'pkgdown.js'
