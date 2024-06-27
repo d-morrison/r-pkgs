@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.556">
+<meta name="generator" content="quarto-1.4.557">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="description" content="Learn how to create a package, the fundamental unit of shareable, reusable, and reproducible R code.">
 <title>R Packages (2e) - 7&nbsp; Data</title>
@@ -31,7 +31,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -589,7 +589,7 @@ Submitting to CRAN
 <!-- https://github.com/wch/r-source/blob/f6737799b169710006b040f72f9abc5e09180229/src/library/tools/R/QC.R#L4672 -->
 </section></section><section id="sec-data-sysdata" class="level2" data-number="7.2"><h2 data-number="7.2" class="anchored" data-anchor-id="sec-data-sysdata">
 <span class="header-section-number">7.2</span> Internal data</h2>
-<p>Sometimes your package functions need access to pre-computed data. If you put these objects in <code>data/</code>, they’ll also be available to package users, which is not appropriate. Sometimes the objects you need are small and simple enough that you can define them with <code><a href="https://rdrr.io/r/base/c.html">c()</a></code> or <code><a href="https://rdrr.io/r/base/data.frame.html">data.frame()</a></code> in the code below <code>R/</code>, perhaps in <code>R/data.R</code>. Larger or more complicated objects should be stored in your package’s internal data in <code>R/sysdata.rda</code>.</p>
+<p>Sometimes your package functions need access to pre-computed data. If you put these objects in <code>data/</code>, they’ll also be available to package users, which is not appropriate. Sometimes the objects you need are small and simple enough that you can define them with <code><a href="https://rdrr.io/r/base/c.html">c()</a></code> or <code><a href="https://rdrr.io/r/base/data.frame.html">data.frame()</a></code> in the code below <code>R/</code>, perhaps in <code>R/data.R</code>. Larger or more complicated objects should be stored in your package’s internal data in <code>R/sysdata.rda</code>, so they are lazy-loaded on demand.</p>
 <p>Here are some examples of internal package data:</p>
 <ul>
 <li>Two colour-related packages, <a href="https://github.com/cwickham/munsell">munsell</a> and <a href="https://cran.r-project.org/web/packages/dichromat/index.html">dichromat</a>, use <code>R/sysdata.rda</code> to store large tables of colour data.</li>
@@ -615,7 +615,7 @@ Submitting to CRAN
 <p>There are also key distinctions, where the handling of internal and external data differs:</p>
 <ul>
 <li>Objects in <code>R/sysdata.rda</code> are not exported (they shouldn’t be), so they don’t need to be documented.</li>
-<li>Usage of <code>R/sysdata.rda</code> has no impact on DESCRIPTION, i.e.&nbsp;the need to specify the <code>LazyData</code> field is strictly about the exported data below <code>data/</code>.</li>
+<li>The <code>LazyData</code> field in the package <code>DESCRIPTION</code> has no impact on <code>R/sysdata.rda</code> but is strictly about the exported data below <code>data/</code>. Internal data is always lazy-loaded.</li>
 </ul></section><section id="sec-data-extdata" class="level2" data-number="7.3"><h2 data-number="7.3" class="anchored" data-anchor-id="sec-data-extdata">
 <span class="header-section-number">7.3</span> Raw data file</h2>
 <p>If you want to show examples of loading/parsing raw data, put the original files in <code>inst/extdata/</code>. When the package is installed, all files (and folders) in <code>inst/</code> are moved up one level to the top-level directory, which is why they can’t have names that conflict with standard parts of an R package, like <code>R/</code> or <code>DESCRIPTION</code> . The files below <code>inst/extdata/</code> in the source package will be located below <code>extdata/</code> in the corresponding installed package. You may want to revisit <a href="structure.html#fig-package-files" class="quarto-xref">Figure&nbsp;<span>3.1</span></a> to review the file structure for different package states.</p>

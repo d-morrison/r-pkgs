@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.556">
+<meta name="generator" content="quarto-1.4.557">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="description" content="Learn how to create a package, the fundamental unit of shareable, reusable, and reproducible R code.">
 <title>R Packages (2e) - 3&nbsp; Package structure and state</title>
@@ -31,7 +31,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -511,7 +511,7 @@ Figure&nbsp;3.1: Package forms: source vs.&nbsp;bundled vs.&nbsp;binary.
 ^_pkgdown\.yml$     # Configuration info for the package website
 ^\.github$          # GitHub Actions workflows</code></pre>
 <p>Note that the comments above must not appear in an actual <code>.Rbuildignore</code> file; they are included here only for exposition.</p>
-<p>We’ll mention when you need to add files to <code>.Rbuildignore</code> whenever it’s important. Remember that <code><a href="https://usethis.r-lib.org/reference/use_build_ignore.html">usethis::use_build_ignore()</a></code> is an attractive way to manage this file. Furthermore, many usethis functions that add a file that should be listed in <code>.Rbuildignore</code> take care of this automatically. For example, <code>use_read_rmd()</code> adds “^README\.Rmd$” to <code>.Rbuildignore</code>.</p>
+<p>We’ll mention when you need to add files to <code>.Rbuildignore</code> whenever it’s important. Remember that <code><a href="https://usethis.r-lib.org/reference/use_build_ignore.html">usethis::use_build_ignore()</a></code> is an attractive way to manage this file. Furthermore, many usethis functions that add a file that should be listed in <code>.Rbuildignore</code> take care of this automatically. For example, <code><a href="https://usethis.r-lib.org/reference/use_readme_rmd.html">use_readme_rmd()</a></code> adds “^README\.Rmd$” to <code>.Rbuildignore</code>.</p>
 </section></section><section id="sec-structure-binary" class="level2" data-number="3.4"><h2 data-number="3.4" class="anchored" data-anchor-id="sec-structure-binary">
 <span class="header-section-number">3.4</span> Binary package</h2>
 <p>If you want to distribute your package to an R user who doesn’t have package development tools, you’ll need to provide a <strong>binary</strong> package. The primary maker and distributor of binary packages is CRAN, not individual maintainers. But even if you delegate the responsibility of distributing your package to CRAN, it’s still important for a maintainer to understand the nature of a binary package.</p>
@@ -669,7 +669,7 @@ RStudio
 <ol>
 <li id="fn1"><p>To see the set of filepaths that should be on your radar, execute <code>dir(full.names = TRUE, recursive = TRUE, include.dirs = TRUE, all.files = TRUE)</code> in the package’s top-level directory.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Well, actually, <code><a href="https://rdrr.io/r/base/library.html">library()</a></code> loads and attaches a package, but that’s a topic for <a href="dependencies-mindset-background.html#sec-dependencies-attach-vs-load" class="quarto-xref"><span>Section 10.4</span></a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>For more details, see the <a href="https://whattheyforgot.org/maintaining-r.html#how-to-transfer-your-library-when-updating-r">Maintaining R section</a> in <em>What They Forgot To Teach You About R</em>, <a href="https://rstudio.github.io/r-manuals/r-admin/Add-on-packages.html#managing-libraries">Managing Libraries</a> in <em>R Installation and Administration</em> and the R help files for <code><a href="https://rdrr.io/r/base/Startup.html">?Startup</a></code> and <code><a href="https://rdrr.io/r/base/libPaths.html">?.libPaths</a></code>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>For more details, see the <a href="https://rstats.wtf/maintaining-r#how-to-transfer-your-library-when-updating-r">Maintaining R section</a> in <em>What They Forgot To Teach You About R</em>, <a href="https://rstudio.github.io/r-manuals/r-admin/Add-on-packages.html#managing-libraries">Managing Libraries</a> in <em>R Installation and Administration</em> and the R help files for <code><a href="https://rdrr.io/r/base/Startup.html">?Startup</a></code> and <code><a href="https://rdrr.io/r/base/libPaths.html">?.libPaths</a></code>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

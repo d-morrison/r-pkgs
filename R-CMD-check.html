@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.556">
+<meta name="generator" content="quarto-1.4.557">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="description" content="Learn how to create a package, the fundamental unit of shareable, reusable, and reproducible R code.">
 <title>R Packages (2e) - Appendix A — R CMD check</title>
@@ -31,7 +31,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -570,7 +570,7 @@ tools:::.check_package_CRAN_incoming
 <!-- https://github.com/wch/r-source/blob/trunk/src/library/tools/R/check.R#L1226 -->
 <ul>
 <li>
-<strong>Checking R files for non-ASCII characters</strong>. For maximum portability (i.e.&nbsp;so people can use your package on Windows) you should avoid using non-ASCII characters in R files. It’s ok to use them in comments, but object names shouldn’t use them, and in strings you should use unicode escapes. See the CRAN-specific notes in <span class="quarto-unresolved-ref">?sec-code</span> for more details.</li>
+<strong>Checking R files for non-ASCII characters</strong>. For maximum portability (i.e.&nbsp;so people can use your package on Windows) you should avoid using non-ASCII characters in R files. It’s ok to use them in comments, but object names shouldn’t use them, and in strings you should use unicode escapes. See the CRAN-specific notes in <a href="code.html" class="quarto-xref"><span>Chapter 6</span></a> for more details.</li>
 </ul>
 <!-- https://github.com/wch/r-source/blob/trunk/src/library/tools/R/check.R#L1258 --><ul>
 <li>
